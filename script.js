@@ -1,12 +1,14 @@
+const boldArr = document.getElementsByTagName('strong');
+
 function highlight() {
-    //Write your code here
-
-
+	for(let item of boldArr){
+		item.style.color = 'green';
+	}
 }
 
 
 function return_normal() {
-    //Write your code here
-
-    
+    for(let item of boldArr){
+		item.style.color = '';
+	}
 }
